@@ -1,11 +1,11 @@
 function CodelandUsernameValidation(str) {
   // code goes here
   if (str.length > 3 && str.length < 25) {
-    let key = /[A-Za-z]+[\w_]+/g.test(str);
-    return key
+    const validUser = /^[A-Za-z]+[A-Za-z0-9_]+[A-Za-z0-9]$/g.test(str);
+    return validUser
   }
   else return false
 }
 
 // keep this function call here 
-console.log(CodelandUsernameValidation('testeri_____no')); //return true
+console.log(CodelandUsernameValidation('testerino__2')); //return true

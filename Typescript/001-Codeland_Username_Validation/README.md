@@ -8,12 +8,12 @@ Have the function CodelandUsernameValidation(str) take the str parameter being p
 
 If the username is valid then your program should return the string true, otherwise return the string false.
 Examples
-```js
+```ts
 Input: "aa_"
 Output: false
 ```
 
-```js
+```ts
 Input: "u__hello_world123"
 Output: true
 ```

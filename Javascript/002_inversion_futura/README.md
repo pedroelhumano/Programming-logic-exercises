@@ -1,4 +1,4 @@
-## Inversion Futura
+## Inversión Futura
 
 Imagina que tenemos los valores diarios de la acción de Bice de la 
 semana pasada, que son los siguientes:

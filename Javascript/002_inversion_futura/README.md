@@ -29,3 +29,4 @@ comprado y luego vendido para obtener la mayor ganancia?
 - b) Escribe una función (puede ser en pseudo-código) que reciba 
 como input la información anterior y retorne la max. ganancia 
 posible en el período
+- c) Resultado esperado: 11

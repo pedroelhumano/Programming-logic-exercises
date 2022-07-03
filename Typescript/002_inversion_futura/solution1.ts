@@ -2,7 +2,6 @@
 
 type inversioneT = number[]
 
-
 const acciones1: inversioneT = [32, 35, 40, 21, 19, 27, 30];
 
 const f1 = (acc: inversioneT) => {

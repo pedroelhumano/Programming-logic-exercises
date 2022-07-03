@@ -2,9 +2,9 @@
 
 type inversionesT = number[]
 
-const acciones: inversionesT = [32, 35, 40, 21, 19, 27, 30];
+const acciones2: inversionesT = [32, 35, 40, 21, 19, 27, 30];
 
-const f = (acc: inversionesT) => {
+const f2 = (acc: inversionesT) => {
   let MinValue: number = acc[0];
   let ventaFinal: number = 0;
 
@@ -21,4 +21,4 @@ const f = (acc: inversionesT) => {
 
   return (ventaFinal);
 }
-console.log(f(acciones)); //EXPECTED => 11
+console.log(f2(acciones2)); //EXPECTED => 11

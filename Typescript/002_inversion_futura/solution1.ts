@@ -1,13 +1,17 @@
 // SOLUCIÓN #1
-const acciones = [32, 35, 40, 21, 19, 27, 30];
 
-const f = (acc) => {
-  let ventaActual = 0;
-  let ventaFinal = 0;
+type inversioneT = number[]
 
-  for (let day = 0; day < acc.length; day++) {
 
-    for (let future = day; future < acc.length; future++) {
+const acciones1: inversioneT = [32, 35, 40, 21, 19, 27, 30];
+
+const f1 = (acc: inversioneT) => {
+  let ventaActual: number = 0;
+  let ventaFinal: number = 0;
+
+  for (let day: number = 0; day < acc.length; day++) {
+
+    for (let future: number = day; future < acc.length; future++) {
       ventaActual = acc[future] - acc[day]
 
       if (ventaFinal < ventaActual) {
@@ -17,4 +21,4 @@ const f = (acc) => {
   }
   return (ventaFinal);
 }
-console.log(f(acciones)); //EXPECTED => 11
+console.log(f1(acciones1)); //EXPECTED => 11

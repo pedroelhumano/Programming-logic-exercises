@@ -8,4 +8,4 @@ const CodelandUsernameValidationTypescript = (str: string): boolean => {
 }
 
 // // keep this function call here 
-console.log(CodelandUsernameValidation('testerino__2'));
+console.log(CodelandUsernameValidationTypescript('testerino__2'));

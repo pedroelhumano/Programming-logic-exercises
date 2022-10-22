@@ -25,7 +25,8 @@ public class App {
 
         // FINAL
         System.out.println("Tu nota es final es " + total);
-        // Caso aprobado solo mayor o igual a 4.
+        // Caso aprobado solo mayor o igual a 4. Esto el ejercicio no lo indica, es un
+        // supuesto.
         if (total >= 4) {
             System.out.println("Usted puede presentar el examen final");
         }

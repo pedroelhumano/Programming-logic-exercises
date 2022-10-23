@@ -12,6 +12,13 @@ public class Notas {
     for (int i = 0; i < nota.length; i++) {
       total = total + (nota[i] * factor[i]);
     }
+
+    if (total >= 3.5f) {
+      System.out.println("Usted tiene derecho al examen final");
+    } else {
+      System.out.println("Reprobaste");
+    }
+
     return total;
   }
 }

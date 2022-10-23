@@ -4,13 +4,18 @@ public class App {
     public static void main(String[] args) throws Exception {
         // Variables.
         Scanner SC = new Scanner(System.in);
-        Notas notas = new Notas(3f, 3f);
+        float notas[] = new float[6];
 
-        System.out.print(notas.calificacion());
+        System.out.println("Bienvenido al calculador de notas.");
 
-        // System.out.println("Nota 1 es: " + notas);
+        for (int i = 0; i < notas.length; i++) {
+            System.out.println("Ingrese la nota numero: " + (i + 1));
+            notas[i] = SC.nextFloat();
+        }
 
-        // notas.calificacion("hola");
+        Notas notaFinal = new Notas(notas);
+
+        System.out.print("El resultado es: " + notaFinal.calificacionFinal());
 
         SC.close();
     }

@@ -1,17 +1,17 @@
 public class Notas {
 
-  private float nota1;
-  private float nota2;
+  private float nota[] = new float[6];
+  private float total = 0.0f;
+  private float factor[] = { 0.07f, 0.14f, 0.21f, 0.07f, 0.07f, 0.14f };
 
-  public Notas(Float n1, Float n2) {
-    // nota1 = n1;
-    // nota2 = n2;
-    System.out.println("Nota 1 es: " + n1);
-    System.out.println("Nota 2 es: " + n2);
+  public Notas(float calificaciones[]) {
+    nota = calificaciones;
   }
 
-  public float calificacion() {
-    return (nota1 + nota2);
-
+  public float calificacionFinal() {
+    for (int i = 0; i < nota.length; i++) {
+      total = total + (nota[i] * factor[i]);
+    }
+    return total;
   }
 }

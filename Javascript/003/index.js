@@ -1,7 +1,7 @@
 const f = (A, K) => {
   for (let i = 0; i < A.length; i++) {
     for (let j = i; j < A.length; j++) {
-      if (i !== j) { // 1
+      if (i !== j) {
         if (A[i] + A[j] === K) {
           return true;
         }

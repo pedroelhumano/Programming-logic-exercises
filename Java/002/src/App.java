@@ -19,6 +19,5 @@ public class App {
             System.out.println("Usted a recibido  " + dineroARetirar);
             System.out.println("Queda en su cuenta  " + (dineroEnCuenta - dineroARetirar));
         }
-
     }
 }

@@ -13,7 +13,6 @@ public class Tabla {
       System.out.println(numero + " * " + i + " = " + (numero * i));
     }
     return null;
-
   }
 
 }

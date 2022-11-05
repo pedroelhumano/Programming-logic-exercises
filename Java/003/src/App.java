@@ -13,7 +13,7 @@ public class App {
         int limitTabla;
 
         // Ciclo infinito para repetir la operacion hasta que se cancele
-        while (isProgramRunning == "si") {
+        while (isProgramRunning.equals("si")) {
             catchingErrores = true;
             System.out.print("Ingresa el numero que se desea conocer la tabla: ");
             numero = SC.nextInt();
@@ -22,6 +22,7 @@ public class App {
 
             Tabla tablamultiplicar = new Tabla(numero, limitTabla);
             tablamultiplicar.TablaCalculator();
+            SC.nextLine();
 
             // Desea repetir?
             while (catchingErrores) {
@@ -30,16 +31,13 @@ public class App {
                 System.out.println("- no");
                 isProgramRunning = SC.nextLine();
 
-                if (isProgramRunning == "si")
+                if (isProgramRunning.equals("si") || isProgramRunning.equals("no"))
                     catchingErrores = false;
-
-                if (isProgramRunning == "no")
-                    catchingErrores = false;
-
-                if (isProgramRunning != "si" || isProgramRunning != "no")
+                else
                     System.out.println("Ingrese un valor correcto: si o no");
             }
         }
+        System.out.println("Adios");
         SC.close();
     }
 }

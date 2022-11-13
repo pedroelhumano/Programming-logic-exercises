@@ -38,10 +38,10 @@ public class Calcular {
 
 ### Preguntas asociadas al caso
 
-1-      ¿Cuál es el error que podría cancelar el programa en una de las operaciones, dependiendo de los valores ingresados por el usuario?
+1- ¿Cuál es el error que podría cancelar el programa en una de las operaciones, dependiendo de los valores ingresados por el usuario?
 
-2-      ¿Cómo se podría evitar que los datos ingresados provoquen un error en el programa?
+2- ¿Cómo se podría evitar que los datos ingresados provoquen un error en el programa?
 
-3-      ¿Qué validaciones se podrían incorporar para asegurar el ingreso de datos correctos?
+3- ¿Qué validaciones se podrían incorporar para asegurar el ingreso de datos correctos?
 
-4-      ¿Qué debiera incorporarse para que el programa se ejecute varias veces hasta que el usuario indique que no desea ingresar más valores?
+4- ¿Qué debiera incorporarse para que el programa se ejecute varias veces hasta que el usuario indique que no desea ingresar más valores?

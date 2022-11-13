@@ -4,24 +4,51 @@ public class Calcular {
 
     public static void main(String[] args) {
         Scanner lectura = new Scanner(System.in);
-        double num1 = 0.0;
-        double num2 = 0.0;
 
-        System.out.println("Ingrese primer operando");
+        String isProgramRunning = "si";
+        boolean catchingErrores = true;
 
-        num1 = lectura.nextDouble();
+        String BaseNum1;
+        String BaseNum2;
 
-        System.out.println("Ingrese segundo operando");
+        while (isProgramRunning.equals("si")) {
+            catchingErrores = true;
 
-        num2 = lectura.nextDouble();
+            System.out.println("Ingrese primer operando");
+            BaseNum1 = lectura.nextLine();
 
-        System.out.println("El resultado de la suma es " + (num1 + num2));
+            System.out.println("Ingrese segundo operando");
+            BaseNum2 = lectura.nextLine();
 
-        System.out.println("El resultado de la resta es " + (num1 - num2));
+            Validador Validador = new Validador(BaseNum1, BaseNum2);
 
-        System.out.println("El resultado de la multiplicación es " + (num1 * num2));
+            if (Validador.isNumeric()) {
 
-        System.out.println("El resultado de la división es " + (num1 / num2));
+                float num1 = Float.parseFloat(BaseNum1);
+                float num2 = Float.parseFloat(BaseNum2);
+
+                System.out.println("El resultado de la suma es " + (num1 + num2));
+                System.out.println("El resultado de la resta es " + (num1 - num2));
+                System.out.println("El resultado de la multiplicación es " + (num1 * num2));
+                if (Validador.isDifferenToZero()) {
+                    System.out.println("El resultado de la división es " + (num1 / num2));
+                } else {
+                    System.out.println("No es posible dividir entre cero");
+                }
+            }
+
+            while (catchingErrores) {
+                System.out.println("¿Desea Repetir?");
+                System.out.println("- si");
+                System.out.println("- no");
+                isProgramRunning = lectura.nextLine();
+
+                if (isProgramRunning.equals("si") || isProgramRunning.equals("no"))
+                    catchingErrores = false;
+                else
+                    System.out.println("Ingrese un valor correcto: si o no");
+            }
+        }
 
         lectura.close();
     }

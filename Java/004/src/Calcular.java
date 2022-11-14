@@ -51,7 +51,6 @@ public class Calcular {
                     System.out.println("Ingrese un valor correcto: si o no");
             }
         }
-
         lectura.close();
     }
 }

@@ -11,8 +11,8 @@ public class Validador {
   public Boolean isNumeric() {
 
     try {
-      Integer.parseInt(numero1);
-      Integer.parseInt(numero2);
+      Float.parseFloat(numero1);
+      Float.parseFloat(numero2);
       return true;
     }
 

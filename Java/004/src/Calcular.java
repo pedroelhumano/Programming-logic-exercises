@@ -35,6 +35,8 @@ public class Calcular {
                 } else {
                     System.out.println("No es posible dividir entre cero");
                 }
+            } else {
+                System.out.println("Debe ingresar caracteres de tipo numerico.");
             }
 
             while (catchingErrores) {

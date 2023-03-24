@@ -14,6 +14,8 @@ int main()
 
   fahr = lower;
 
+  printf("Program farh 01\n");
+
   printf("Fahrenheit\tCelsius\n");
   while (fahr <= upper)
   {

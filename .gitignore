@@ -12,5 +12,8 @@
 # Windows executable files
 **/*.exe
 
+# vscode configs
+.vscode/*
+
 # C temp files
 **/tempCodeRunnerFile.c

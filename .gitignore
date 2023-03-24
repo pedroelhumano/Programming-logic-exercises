@@ -1,8 +1,16 @@
+# C Files
+**/tempCodeRunnerFile.c
+
+# Windows executable files
+**/*.exe
+
 # Files without Extension
 *
 !/**/
 !*.*
 
-# MacOs Files
+# OS Files
+* .thumbs.db
+**/.thumbs.db
 * .DS_Store
 **/.DS_Store

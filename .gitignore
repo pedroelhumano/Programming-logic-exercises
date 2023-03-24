@@ -1,9 +1,3 @@
-# C Files
-**/tempCodeRunnerFile.c
-
-# Windows executable files
-**/*.exe
-
 # Files without Extension
 *
 !/**/
@@ -14,3 +8,9 @@
 **/.thumbs.db
 * .DS_Store
 **/.DS_Store
+
+# Windows executable files
+**/*.exe
+
+# C Files
+**/tempCodeRunnerFile.c

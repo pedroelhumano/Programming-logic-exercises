@@ -12,5 +12,5 @@
 # Windows executable files
 **/*.exe
 
-# C Files
+# C temp files
 **/tempCodeRunnerFile.c

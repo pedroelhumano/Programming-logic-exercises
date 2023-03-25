@@ -12,8 +12,7 @@
 # Windows executable files
 **/*.exe
 
-# vscode configs
+# vscode temps
 .vscode/*
-
-# C temp files
 **/tempCodeRunnerFile.c
+*.dSYM/

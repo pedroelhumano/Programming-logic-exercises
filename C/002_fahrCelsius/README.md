@@ -20,3 +20,7 @@ Fahrenheit      Celsius
 280              137.8
 300              148.9
 ```
+
+Extras:
+- Escriba el mismo programa programa pero de manera invertida, es decir empezando desde 300 el valor de Fahrenheit
+- Escriba el mismo programa pero que la transformación sea desde Celsius a Fehrenheit.

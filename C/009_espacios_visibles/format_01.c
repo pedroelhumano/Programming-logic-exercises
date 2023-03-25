@@ -7,7 +7,7 @@
   Para generar artificialmente un EOF en la terminal se utiliza:
   ctrl D en unix/linux/macos
   ctrl Z en windows
-  El caracter retroceso en el teclado es
+  El caracter retroceso en el teclado es ctrl+H
 */
 
 int main()

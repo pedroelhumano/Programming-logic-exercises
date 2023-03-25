@@ -14,5 +14,9 @@ int main()
   int c;
 
   while ((c = getchar()) != EOF)
+  {
     putchar(c);
+    printf("\nLa expresion getchar() != EOF es %d\n", getchar() != EOF);
+  }
+  printf("La expresion getchar() != EOF es %d\n", getchar() != EOF);
 }

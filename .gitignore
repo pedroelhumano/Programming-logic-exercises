@@ -14,5 +14,7 @@
 
 # vscode temps
 .vscode/*
+
+# debug and temps C files
 **/tempCodeRunnerFile.c
 *.dSYM/

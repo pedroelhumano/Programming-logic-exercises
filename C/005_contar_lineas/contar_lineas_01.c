@@ -2,6 +2,13 @@
 
 /* cuenta las lineas de la entrada*/
 
+/*
+  Nota adicional
+  Para generar artificialmente un EOF en la terminal se utiliza:
+  ctrl D en unix/linux/macos
+  ctrl Z en windows
+*/
+
 int main()
 {
   int c, nl;

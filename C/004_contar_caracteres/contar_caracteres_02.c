@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+/* cuenta cantotidad de caracteres */
+
+/*
+  Nota adicional
+  Para generar artificialmente un EOF en la terminal se utiliza:
+  ctrl D en unix/linux/macos
+  ctrl Z en windows
+*/
+
 int main()
 {
   double nc;

@@ -4,9 +4,7 @@
 !*.*
 
 # OS Files
-* .thumbs.db
-**/.thumbs.db
-* .DS_Store
+**/.[Tt]humbs.db
 **/.DS_Store
 
 # Windows executable files

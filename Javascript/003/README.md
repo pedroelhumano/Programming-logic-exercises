@@ -17,3 +17,5 @@ A = [1, 4, 7, 3]
 K = 4
 f(A, K) -> true
 ```
+
+FUENTE: Prueba técnica, entrevista de trabajo.

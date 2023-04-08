@@ -1,6 +1,6 @@
 ## Inversión Futura
 
-Imagina que tenemos los valores diarios de la acción de Bice de la 
+Imagina que tenemos los valores diarios de la acción de Bice de la
 semana pasada, que son los siguientes:
 
 <table class="default">
@@ -24,9 +24,11 @@ semana pasada, que son los siguientes:
   </tr>
 </table>
 
-- a) Teniendo estos valores como dato, ¿Qué día debería haber 
+- a) Teniendo estos valores como dato, ¿Qué día debería haber
 comprado y luego vendido para obtener la mayor ganancia?
-- b) Escribe una función (puede ser en pseudo-código) que reciba 
-como input la información anterior y retorne la max. ganancia 
+- b) Escribe una función (puede ser en pseudo-código) que reciba
+como input la información anterior y retorne la max. ganancia
 posible en el período
 - c) Resultado esperado: 11
+
+FUENTE: Prueba técnica, entrevista de trabajo.

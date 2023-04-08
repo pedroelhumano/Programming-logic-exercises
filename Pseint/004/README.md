@@ -1,2 +1,4 @@
 ## Ejercicio N°4
-Desarrolle un algoritmo en Pseint que solicite 10 números al usuario y entregue como resultado el promedio, utilizando un ciclo <b>para</b>
+Desarrolle un algoritmo en Pseint que solicite 10 números al usuario y entregue como resultado el promedio, utilizando un ciclo <b>para</b>.
+
+Fuente: UNIVERSIDAD IPCHILE - MENCIÓN ANALISTA PROGRAMADOR COMPUTACIONAL - ASIGNATURA: FUNDAMENTOS DE PROGRAMACIÓN.

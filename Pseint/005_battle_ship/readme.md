@@ -13,3 +13,5 @@ Pasos que debe ejecutar su algoritmo:
 5.    Por cada iteración le pedirá al usuario que ingrese la coordenada de disparo.
 6.    Según la posición de disparo, comparará si en esa posición hay un 2 (que representa los barcos) o un 0 (que representa mar).
 7.    En ambos casos debe mandar un mensaje diciendo al jugador a que le acertó con el disparo.
+
+Fuente: UNIVERSIDAD IPCHILE - MENCIÓN ANALISTA PROGRAMADOR COMPUTACIONAL - ASIGNATURA: FUNDAMENTOS DE PROGRAMACIÓN.

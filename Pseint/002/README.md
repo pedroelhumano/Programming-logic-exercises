@@ -7,3 +7,5 @@ Determine el Impuesto a pagar de un trabajador, considerando que si la persona g
 - Superior a $50.000, el impuesto será del 35% del sueldo
 
 Se pide que su algoritmo en Pseint reciba el sueldo bruto, muestre el sueldo final y los impuestos que paga.
+
+Fuente: UNIVERSIDAD IPCHILE - MENCIÓN ANALISTA PROGRAMADOR COMPUTACIONAL - ASIGNATURA: FUNDAMENTOS DE PROGRAMACIÓN.

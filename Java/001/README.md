@@ -10,3 +10,5 @@ Introducción a la programación orientada a objetos
 ![](./img/cuadro.png)
 
 Dado el caso expuesto y considerando un desarrollo en JAVA, ¿Qué tipos de datos y que  operador aritmético-lógico debería utilizar dentro del programa para procesar las notas, obtener el promedio y verificar si el valor permite que el alumno pueda dar examen?
+
+Fuente: UNIVERSIDAD IPCHILE - MENCIÓN ANALISTA PROGRAMADOR COMPUTACIONAL - ASIGNATURA: PROGRAMAC. ORIENTADA A OBJETOS.

@@ -11,3 +11,5 @@ El programa debe generar 2 archivos de salida:
 2- Todos los Rut incorrectos, donde el dígito del Rut no corresponde con el calculado según el módulo 11.
 
 Los Rut en ambos archivos de salida deben quedar ordenados de menor a mayor.
+
+Fuente: UNIVERSIDAD IPCHILE - MENCIÓN ANALISTA PROGRAMADOR COMPUTACIONAL - ASIGNATURA: PROGRAMAC. ORIENTADA A OBJETOS.

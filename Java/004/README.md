@@ -45,3 +45,5 @@ public class Calcular {
 3- ¿Qué validaciones se podrían incorporar para asegurar el ingreso de datos correctos?
 
 4- ¿Qué debiera incorporarse para que el programa se ejecute varias veces hasta que el usuario indique que no desea ingresar más valores?
+
+Fuente: UNIVERSIDAD IPCHILE - MENCIÓN ANALISTA PROGRAMADOR COMPUTACIONAL - ASIGNATURA: PROGRAMAC. ORIENTADA A OBJETOS.

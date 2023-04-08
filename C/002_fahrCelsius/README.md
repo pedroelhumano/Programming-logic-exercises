@@ -24,3 +24,5 @@ Fahrenheit      Celsius
 Extras:
 - Escriba el mismo programa programa pero de manera invertida, es decir empezando desde 300 el valor de Fahrenheit
 - Escriba el mismo programa pero que la transformación sea desde Celsius a Fehrenheit.
+
+Fuente: EL LENGUAJE DE PROGRAMACIÓN C POR BRIAN W. kERNIGHAN Y DENNIS M. RITCHIE.

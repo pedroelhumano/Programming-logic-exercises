@@ -4,3 +4,5 @@ Escribir un programa que detecte la cantidad de espacios en blanco entre palabra
 
 Entrada: 'hola&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mundo&nbsp;&nbsp;&nbsp;hola'\
 Salida esperada: 'hola mundo hola'
+
+Fuente: EL LENGUAJE DE PROGRAMACIÓN C POR BRIAN W. kERNIGHAN Y DENNIS M. RITCHIE.

@@ -12,10 +12,14 @@ const arrayCombination = arr1.concat(arr3).sort((a, b) => a - b);
 
 // arr odd
 if (arrayCombination.length % 2 !== 0) {
-  console.log('Mediana: ', arrayCombination[(arrayCombination.length - 1) / 2])
+  console.log('Mediana: ',
+    arrayCombination[(arrayCombination.length - 1) / 2])
 
 }
 // arr even
 else {
-  console.log('Mediana: ', (arrayCombination[(arrayCombination.length - 2) / 2] + arrayCombination[((arrayCombination.length - 2) / 2) + 1]) / 2)
+  console.log('Mediana: ', (
+    arrayCombination[(arrayCombination.length - 2) / 2] +
+    arrayCombination[((arrayCombination.length - 2) / 2) + 1]) /
+    2)
 }

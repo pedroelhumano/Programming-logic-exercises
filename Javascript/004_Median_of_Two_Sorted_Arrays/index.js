@@ -2,6 +2,9 @@
 // element in the middle of the array. If it is even, then the median would be
 // defined as the average of the two elements in the middle of the array.
 
+// NOTA 2: Esta solución encuentra la media pero no cumple O Notation.
+// Por lo que no resuelve el ejercicio.
+
 // CHANGE Arrs
 
 const arr1 = [5, 4, 3, 2, 1];

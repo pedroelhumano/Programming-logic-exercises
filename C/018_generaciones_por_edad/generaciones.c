@@ -47,7 +47,7 @@ unsigned short calcularAnioNacimiento()
 // Función para calcular la generación
 void calcularGeneracion(unsigned short anioNacimiento)
 {
-  char generacion[31]; // se define estáticamente la variable generacion
+  char generacion[31]; // se define la variable generacion
 
   switch (anioNacimiento)
   {

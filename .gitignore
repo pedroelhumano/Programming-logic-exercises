@@ -11,7 +11,7 @@
 **/*.exe
 
 # vscode temps
-.vscode/*
+.vscode/
 
 # debug and temps C files
 **/tempCodeRunnerFile.c

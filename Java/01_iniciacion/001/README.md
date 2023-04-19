@@ -1,6 +1,4 @@
-## 001
-
-Introducción a la programación orientada a objetos
+## Introducción a la programación orientada a objetos
 
 - Para realizar el cálculo de la nota de presentación a un examen, cada nota parcial se multiplica por un factor específico.
 - El resultado de la multiplicación se va acumulando hasta conformar un total que corresponde a la nota de presentación al examen.

@@ -1,4 +1,4 @@
-## 016 Mostrar Datos
+## Mostrar Datos
 
 En esta actividad se pide crear un programa en lenguaje C que permita lo siguiente:
 - Pregunte al usuario por una palabra de 10 letras máximo y guardar para mostrarla después.

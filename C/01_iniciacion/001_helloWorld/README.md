@@ -1,3 +1,3 @@
-## 001 Hello World
+## Hello World
 
 Hacer un programa que imprima hello world en la terminal.

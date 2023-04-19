@@ -1,4 +1,4 @@
-## 002 Fahrenheit-Celsius
+## Fahrenheit-Celsius
 
 Escribir un programa que utiliza la formula °C = (5/9) (°F-32) donde C es celsius y F es Fahrenheit, de modo tal que inicialice en F=0 y iterando numeros por pasos donde pasos=20 hasta 300. Resultado esperado:
 ```

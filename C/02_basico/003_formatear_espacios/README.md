@@ -1,4 +1,4 @@
-## 008 Formatear espacios
+## Formatear espacios
 
 Escribir un programa que detecte la cantidad de espacios en blanco entre palabras y lo formatee a un solo espacio en blanco. Por ejemplo:\
 

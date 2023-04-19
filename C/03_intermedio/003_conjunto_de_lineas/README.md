@@ -1,4 +1,4 @@
-## 014 Conjunto de líneas
+## Conjunto de líneas
 
 Crea un programa que lea un conjunto de líneas de texto e imprima la de mayor longitud.
 

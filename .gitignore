@@ -16,3 +16,5 @@
 # debug and temps C files
 **/tempCodeRunnerFile.c
 *.dSYM/
+**/*.pdb
+/**/target/

@@ -16,5 +16,7 @@
 # debug and temps C files
 **/tempCodeRunnerFile.c
 *.dSYM/
+
+# Rust files
 **/*.pdb
 /**/target/
